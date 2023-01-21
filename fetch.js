@@ -1,5 +1,3 @@
-// let response = fetch('https://reqres.in/api/users/phbv')
-//     let myJson = response.json();
 
 function getData() {
     
@@ -17,10 +15,10 @@ function getData() {
             <div class="user card">
                 <img class="avatar" src="${user.avatar}" />
                 <hr>
-                <div class="user-info">
-                <p><b>${user.first_name} ${user.last_name}</b></p>
                 
-                <p><b>${user.email}</b></p>
+                <p> <div class="user-info">
+                <p><img class="profile-icon" src="./images/211874_person_icon.png" /><b>${user.first_name} ${user.last_name}</b></p>
+                <p><img class="profile-icon" src="./images/211660_email_icon.png" /><b>${user.email}</b></p>
                 </div>
                 <button>
                     <a href="mailto:${user.email}">Email Me</a>
