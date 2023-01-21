@@ -11,6 +11,44 @@ body {
     line-height: 18px;
 }
 
+.nav-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 20px;
+    background: white;
+    align-content: center;
+}
+
+.main-title {
+    color: lightblue;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.main-menu {
+    
+    display: flex;
+    flex-flow: row nowrap;
+    text-decoration: none;
+    justify-content: space-around;
+    gap: 30px;
+    list-style: none;
+}
+
+.main-menu li {
+
+}
+
+.main-menu li a {
+    text-decoration: none;
+    color: black;
+    background: rgb(203, 226, 234);
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
 #app {
     display: flex;
     flex-flow: row wrap;
