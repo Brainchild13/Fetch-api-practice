@@ -54,17 +54,28 @@ hr {
             rgba(0, 0, 0, 0));
 }
 
+.profile-icon {
+    height: 15px;
+    width: 15px;
+    vertical-align: text-bottom;
+    margin-right: 10px;
+}
+
 .user-info {
     margin-bottom: 20px;
 }
 
 p {
+    font-size: 12px;
     text-align: left;
     margin-bottom: 5px;
     /* margin-left: 10px; */
 
 }
 
+p a {
+    font-size: 12px;
+}
 
 button {
     background: white;
